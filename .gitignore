@@ -1,0 +1,7 @@
+*.sqlite
+/.vscode/
+/.eslintrc
+json/
+/node_modules/
+/fly.toml
+/.env

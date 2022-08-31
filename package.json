@@ -1,0 +1,32 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "bot for my discord server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "orca",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/rest": "^1.1.0",
+    "@discordjs/voice": "^0.11.0",
+    "@napi-rs/canvas": "^0.1.28",
+    "discord-player": "^5.3.1",
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "ffmpeg-static": "^5.0.2",
+    "libsodium-wrappers": "^0.7.10",
+    "node-cron": "^3.0.2",
+    "sequelize": "^6.21.4",
+    "sqlite3": "^5.0.11",
+    "ytdl-core": "^4.11.1",
+    "ytpl": "^2.3.0",
+    "ytsr": "^3.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0"
+  }
+}

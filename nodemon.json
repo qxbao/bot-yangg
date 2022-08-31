@@ -1,0 +1,17 @@
+{
+    "verbose": false,
+    "restartable": "rs",
+    "colours": true,
+    "ignore": [
+      "./commands/*",
+      "./db/*",
+      "./node_modules/*",
+      "./modules/",
+      "./streaming/",
+      "/*.js"
+    ],
+    "watch": [
+      "./index.js"
+    ],
+    "ext": "js"
+}
